@@ -61,4 +61,4 @@ def listar_livros():
   return jsonify(livros_formatados),200
 
 if __name__ == "__main__":
-  app.run(debug = true)
+  app.run(debug = True)
